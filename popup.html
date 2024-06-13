@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="demo" onclick="upadateText()">Click here</h1>
+    <button onclick="check1()">Create</button>
+    <h2 id="demo2"></h2>
+</body>
+<script>
+    function upadateText() {
+
+
+        document.getElementById("demo").innerHTML = "mother Earth"
+        alert("hello world")
+    }
+
+    function check1() {
+        let check = prompt("enter your age")
+        if (Number.isInteger(check)) {
+
+            if (check == "" || check == null) {
+                alert("please enter your age!")
+                check1()
+            }
+            else {
+                if (check >= 18) {
+                    document.getElementById("demo2").innerHTML = "you are eligible to vote"
+                }
+
+                else {
+                    document.getElementById("demo2").innerHTML = "your not eligible to vote"
+                }
+            }
+        }
+        else {
+            alert("please enter valid age")
+            check1()
+        }
+    }
+
+</script>
+
+</html>

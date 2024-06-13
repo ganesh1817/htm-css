@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="id1" type="number" min="100" max="300" required>
+    <button onclick="myfunction()">Click here</button>
+</body>
+<script>
+    function myfunction(){
+        // let textval = document.getElementById("id1")
+        // let val=Number.parseInt(textval)
+        // if(val>=100 && val<=300){
+        //     alert("input is correct")
+        // }
+        // else{
+        //     alert("input is wrong")
+        // }
+    const inpObj = document.getElementById("id1")
+    console.log(inpObj.validity)
+    console.log(inpObj.willValidate)
+    console.log(inpObj.validationMessage)
+    if(inpObj.checkValidity()){
+        alert("input OK")
+    }
+    else{
+        alert(inpObj.validationMessage)
+    }
+    
+    
+    }
+
+
+</script>
+</html>

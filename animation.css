@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    animation-name: demo;
+    animation-duration: 5s;
+    position: relative;
+}
+@keyframes demo{
+    0%{background-color: aqua;left: 0px;}
+    25%{background-color: green;left: 200px;}
+    50%{background-color: blue;top: 100px;}
+    75%{background-color: brown;left: 10px;}
+    100%{background-color: grey;bottom: 50px;}
+}

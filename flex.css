@@ -1,0 +1,66 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    /*flex direction using which direction container want to stack the flex items*/
+    background-color: black;
+    color: white;
+}
+.para1{
+
+    background-color: aqua;
+    color: black;
+    flex: 1;
+}
+.para2{
+    background-color: yellow;
+    color: black;
+    flex: 1;
+}
+.para3{
+    background-color: blue;
+    flex: 2;
+    /* flex property using ratio of the width..its does not change the width  */
+}
+.container{
+    display: flex;
+    background-color: blue;
+    height: auto;
+    /*this flex-wrap container child element not go out of the container*/
+    flex-wrap: wrap; /*wrap reverse,no wrap,*/
+    /* flex-flow poperty is shorthand property for the flex-direction and the flex-wrap */
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+}
+.container > div{
+    background-color: gray;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+.flex{
+    display: flex;
+    background-color: grey;
+    margin: 10px;
+    padding: 15px;
+    justify-content: center;
+    height: 200px;
+    /* align-items: center; */
+
+}
+.flex > div{
+    
+    width: 100px;
+    background-color: blue;
+    padding: 10px;
+    border: 2px solid;
+    align-items: center;
+    justify-content: center;
+    /* height: 50px; */
+    margin: 10px;
+
+}

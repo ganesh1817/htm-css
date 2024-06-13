@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation</title>
+</head>
+<body>
+    <div id="pos"></div>
+    
+</body>
+<script>
+  
+  if(navigator.geolocation){
+    navigator.geolocation.getCurrentPosition(callback)
+  }
+  function callback(position){
+    console.log(position)
+    document.getElementById("pos").innerHTML =`
+    <h1>Latitude is ${position.coords.latitude}</h1>
+        <h1>longitude is ${position.coords.longitude}</h1>
+    `
+  }
+</script>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <button onclick="fun()">Click here</button>
+    <button onclick="g('Siva')">Submit</button>
+    <button onclick="pm(6,7)">Click here</button>
+    <button onclick="a(8,62)">Add number</button>
+    <button onclick="setInterval(set,2000)">timeout</button>
+    <script>
+
+
+        function fun(){
+            console.log("welcome")
+        }
+        fun();
+        var a,b;
+        function pm(a,b){
+            console.log(a+b)
+
+        }
+        pm(6,4);
+        let g=function(h){
+    console.log("hello",h)
+
+}
+//single expressions
+var a=(a,b)=>
+    console.log(a+b);
+    a(4,5)
+//Block body
+var c=(x,y)=>{
+    console.log("block body",x*y);
+}
+c(4,5)
+//without parameter
+
+var d=()=>{
+    console.log("without parameter")
+}
+       d();
+
+       var set=()=>{
+        console.log("set timeout")
+      
+       }
+    //    setTimeout(set,6000)
+    </script>
+    
+</body>
+</html>

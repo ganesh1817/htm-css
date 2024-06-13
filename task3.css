@@ -1,0 +1,46 @@
+.main-box{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 3px;
+    /* position: relative; */
+    
+
+    
+}
+.main-box > div{
+    
+    border: 1px solid;
+    text-align: center;
+    /* grid-template-rows: auto auto auto auto; */
+    /* grid-template-columns: auto auto auto auto; */
+    padding: 30px;
+    /* margin: 5px; */
+}
+.section {
+    /* grid-row-start: 3; */
+    /* grid-row-end: 4; */
+    /* position: absolute; */
+    height: 70px;
+    width: 100px;
+    bottom: 80px;
+}
+.header{
+    height: 5px;
+    
+}
+.nav{
+    height: 5px;
+}
+.footer{
+    height: 3px;
+}
+.aside{
+        width: 200px;
+        height: 100px;
+        /* position: absolute; */
+      
+
+}

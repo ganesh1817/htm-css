@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spread operator</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //spread operator
+    var a=[{x:2,y:3},{x:5,y:1}]
+    var b=[5,6,7]
+    console.log(...a)
+    console.log(...b)
+// var c=[...a,...b]
+// console.log(c)
+//if concatinate object does not work same key value
+//object spread operator does not work single declare for console.log
+//object does not work same value
+
+
+var d={x:2,y:3}
+var f={z:5,a:1}
+var g={...d,...f}
+console.log(g);
+</script>
+</html>

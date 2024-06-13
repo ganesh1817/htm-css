@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body> 
+    <div id="div1"></div>
+    <div class="div2"></div>
+    <h1 id="div3">siva</h1>
+    <button onclick="change()">click here</button>
+    
+</body>
+<script>
+    change=()=>{
+  
+          var div1=document.getElementsByTagName("div");
+          var div2=document.getElementsByClassName("div2");
+          
+          var div3=document.getElementById("div3");
+  
+          console.log(div3);
+          console.log(div2);
+          console.log(div1);
+        
+          div3.innerHTML="sgk";
+          div2[0].innerHTML="<h2>ganesh</h2>";
+          div1[0].innerHTML="<h1>Shiva</h1>";
+      }
+          </script>
+
+</html>

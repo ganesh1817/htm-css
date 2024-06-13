@@ -1,0 +1,54 @@
+h2 {
+    border: none;
+    outline: 20px solid rgb(53, 174, 214);
+    outline-offset: 5px;
+    text-align: center;
+    color: darkblue;
+    /* put the value in horizontal value 1st,2nd vertical value, 3rd blur,4th color in text shadow */
+    text-shadow: 2px 2px 5px black;
+    box-shadow: inset -5px -5px 12px rgb(94, 91, 91),
+                      5px 5px 50px black;
+    border-radius: 10px;
+    height: 50px;
+
+}
+
+h1 {
+    text-align: right;
+    color: darkblue;
+    /* text-decoration: overline;   /* underline ,line through*/
+    /* text-decoration-color: red;
+    text-decoration-style: wavy;  /*dotted ,dashed,wavy*/
+    /* text-decoration-thickness: 5px; */
+    
+}
+
+p {
+    padding: 20px;
+    width: 15em;
+
+    text-align: justify;
+    text-indent: 4em;
+    /*starting line space kodukum paragraph la*/
+    letter-spacing: 1px;
+    line-height: 1.5;
+    word-spacing: 1px;
+  font-family: 'Times New Roman', Times, serif;    /* we got font in google font website */
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 2em;
+    display: inline-block;
+
+    justify-content: center;
+}
+
+.vertical {
+    text-transform: uppercase;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+}

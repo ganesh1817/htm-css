@@ -1,0 +1,52 @@
+.big-box{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid ;
+    position: relative;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 168, 15);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 25, 168);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+}
+.purple{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(168, 9, 163);
+    position: absolute;
+    /* left: 10px; */
+    bottom: 0px;
+    text-align: center;
+}
+.grey{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(111, 118, 119);
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    text-align: center;
+}

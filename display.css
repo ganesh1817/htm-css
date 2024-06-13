@@ -1,0 +1,32 @@
+div{
+    display: inline;
+}
+p{
+    display: inline;
+}
+.static{
+    display: block;
+    font-size: 20px;
+    
+}
+.relative{
+    position: sticky;
+    position: -webkit-sticky;
+    font-size: 20px;
+    border: 1px solid darkblue;
+    top: 0px;
+   
+   
+    
+}
+h1{
+    position: fixed;
+    right: 300px;
+    top: 0px;
+    
+}
+.absolute{
+
+    display: inline;
+    font-size: 20px;
+}

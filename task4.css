@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    gap: 5px;
+    border: 1px solid;
+    height: 250px;
+    /* width: 500px; */
+    flex-wrap: wrap;
+}
+.container > div{
+    background-color: rgb(72, 112, 126);
+    /* margin: 0.5px; */
+    border: 1px solid;
+    border-radius: 5px;
+}

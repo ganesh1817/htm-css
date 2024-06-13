@@ -1,0 +1,30 @@
+/* overflow - visible(default value)
+-hidden(over) */
+
+
+
+.para{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    overflow: hidden;
+    
+}
+.scroll{
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+    overflow: scroll;
+    
+}
+.auto{
+    margin: 20px;
+    padding: 10px;
+    width: 10px;
+    /* height: 100px; */
+    border: 2px solid black;
+    overflow-y: hidden;
+    
+}

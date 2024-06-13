@@ -1,0 +1,36 @@
+img{
+    width: auto;
+    background-color: grey;
+    /* height: auto; */
+    flex-wrap: nowrap;
+}
+.container
+{
+    display: flex;
+    border: 1px solid;
+    flex-wrap: nowrap;
+    width: auto;
+    /* gap: 5px 5px; */
+    height: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+
+   
+}
+.price
+{
+    font-weight: 700;
+}
+.container > div{
+    border: 1px solid;
+    height: 500px;
+
+    /* width: auto;     */
+}
+.three img{
+    width: 400px;
+    height: 300px;
+    flex-wrap: wrap;
+}

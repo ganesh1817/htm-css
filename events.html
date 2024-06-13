@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+
+</head>
+<body>
+    <p>Click the button</p>
+    <button id="myBtn">Get date</button>
+
+   <p id="demo"></p>
+</body>
+<script>
+    document.getElementById("myBtn").onclick = displayDate;
+    function displayDate(){
+        document.getElementById("demo").innerHTML=Date();
+        document.getElementById("demo").style = "color:blue;"      
+      
+        
+    }
+    
+</script>
+</html>

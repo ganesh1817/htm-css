@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.blue{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: relative;
+    bottom: 150px;
+    
+}
+.red{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    bottom: 350px;
+    left: 100px;
+}
+.black{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+}
+.green{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: relative;
+    top: 200px;
+}

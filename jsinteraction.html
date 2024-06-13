@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js Interaction</title>
+</head>
+
+<body>
+    <h1>java script Interaction</h1>
+    <h2 id="prompt"></h2>
+    <h2 id="age"></h2>
+    <!-- <button onclick="interact()">click to interact</button> -->
+</body>
+<script>
+ 
+    interact = () => {
+       
+        // if (age >= 13 && age <= 20) {
+        //     alert("teenage..")
+        // } else if (age >= 21 && age <= 30) {
+        //     alert("youth..")
+        // } else if (age >= 21 && age <= 40) {
+        //     alert("middle age")
+        // } else {
+        //     alert("old age")
+        // }
+    }
+    //prompt
+    
+let verify=confirm("your age is 18 above?")
+console.log(verify)
+if(verify==true){
+    
+    let age = prompt("enter your age:");
+     let name=prompt("enter your name")
+     console.log(age)
+     if(age !=""){
+        // alert("your age is:",age)
+       document.getElementById("prompt").innerHTML="Your name:"+name ;   
+       document.getElementById("age").innerHTML="your age is:"+age;
+     }
+}
+
+</script> 
+
+</html>

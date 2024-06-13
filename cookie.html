@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie</title>
+</head>
+
+<body>
+    <h2 id="cookies"></h2>
+
+</body>
+<script>
+
+    document.cookie = "username=Sivaganesh"
+    document.cookie = "userID=123"
+    document.getElementById("cookies").innerHTML = "Hi Welcome "  + getcookie("username")
+
+    let find = "username"
+    function getcookie(find) {
+
+        let ca = document.cookie.split(";")
+        for (let i = 0; i < ca.length; i++) {
+            let s = ca[i]
+            // console.log(s)
+            if (s.indexOf(find) != -1) {
+                let start = s.indexOf(find) + (find + "=").length;
+                // console.log(s.substring(start));
+                return s.substring(start)
+            }
+        }
+
+    }
+</script>
+
+</html>

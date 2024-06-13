@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskJs</title>
+</head>
+<body>
+    <h5>Heading</h5>
+   <input type="text" name="" id="box"> 
+   <button onclick="submit()"> Submit</button>
+</body>
+<script>
+    function submit(){
+        let box1=document.createElement("h1");
+        let box=document.getElementById("box");
+        box1.textContent=box.value;
+        document.body.appendChild(box1);
+    }
+</script>
+</html>
